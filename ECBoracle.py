@@ -1,6 +1,8 @@
 from pwn import *
 
-r = remote('crypto.chal.csaw.io', 1003)
+host = '' #string
+port = 80 #int
+r = remote(host, port)
 
 blength = 0
 
@@ -27,10 +29,7 @@ for i in range(100):
 
 flag = ''
 
-
-flag = 'flag{y0u_kn0w_h0w_B10cks'
-
-for k in range(25,blength+1):
+for k in range(1,blength+1):
         pload = 'a'*(blength-k)
         r.sendline(pload)
         r.recvline()
