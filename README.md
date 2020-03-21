@@ -4,7 +4,7 @@ A collection of exploits or general scripts that often come in handy during CTFs
 - `Sherlock`: OSINT tool used to find online presence connected to a particular username. **Credits : https://github.com/sherlock-project/sherlock**
 - `jwttool.py`: Handy script for testing jsonwebtoken vulneabilities. **Credits: https://github.com/ticarpi/jwt_tool**
 - `ECBoracle`: Exploit for an ECB padding oracle, a common class of challenges in security training labs. **Credits: Me**
-- `getprimes`: A collection of sieves and other algorithm got fast computation of primes. **Credits: Me + Stackoverflow**
+- `getprimes`: A collection of sieves and other algorithms for fast computation of primes. **Credits: Me + Stackoverflow**
 - `weiner`: Implementation of weiner's attack on RSA. **Credits: Me**
 - `pupper.jpg.php`: A php reverse shell disguised as an image. Useful for fooling MIME type checks and exploiting file upload systems. **Credits: Me**
 - `diggit.py`: Automatically extracts exposed git directories in websites. **Credits: https://github.com/jrfaller/diggit**
