@@ -13,4 +13,4 @@ A collection of exploits or general scripts that often come in handy during CTFs
 - `grab.php`: A simple php file to dump incoming request queries. Useful as an Out of Band exfiltration endpoint in combination with ngrok or pagekite. **Credits: Me**
 - `coppersmith.py`: A simple implementation of the functions to be used in a classic coppersmith's attack on RSA **Credits: Me**
 - `LCG.py`: Simple script to break LCG (linear congruential genrator) RNG. **Credits: Unknown**
-- `blindSQLexfiltration.py`: Script for character by character extraction of data via blind SQL injection **Credits: Me, @supra08, @sin3point14**
+- `SQLi`: Collection of scripts for extraction of data via blind SQL injection **Credits: Me, @supra08, @sin3point14**
