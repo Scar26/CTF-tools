@@ -1,1 +1,3 @@
- 
+ - `blind_response_based.py`: Script for extraction of data via conditional-response based blind SQLi **Credits: Me, @supra08, @sin3point14**
+ - `blind_error_based.py`: Script for extraction of data via conditional-error based blind SQLi **Credits: Me**
+ - `blind_timing_based.py`: Script for extraction of data via timing attack/condition delay based blind SQLi **Credits: Me**
